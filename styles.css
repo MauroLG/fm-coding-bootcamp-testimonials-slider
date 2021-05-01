@@ -1,0 +1,38 @@
+/* VARIABLES */
+
+:root {
+  --dark-blue: hsl(240, 38%, 20%);
+  --grayish-blue: hsl(240, 18%, 77%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* MOBILE FIRST */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 375px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
