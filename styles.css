@@ -37,7 +37,7 @@ body {
     url(./images/pattern-quotes.svg), url(./images/pattern-curve.svg);
   background-repeat: no-repeat;
   background-size: 92.5%, 15%, 100%;
-  background-position: top left, center 59.5%, -30px 104%;
+  background-position: 45% 1%, center 59.5%, -30px 104%;
 }
 
 .top {
@@ -50,8 +50,8 @@ body {
 
 .img-profile {
   margin-top: -0.7rem;
-  width: 71%;
-  border-radius: 0.2rem;
+  width: 71.5%;
+  border-radius: 0.25rem;
   box-shadow: 0 1rem 2rem -1rem hsl(240, 38%, 20%);
 }
 
