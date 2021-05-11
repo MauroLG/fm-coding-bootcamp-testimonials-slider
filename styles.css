@@ -26,7 +26,6 @@ body {
 }
 
 .container {
-  margin-top: 1.5rem;
   width: 375px;
   height: 660px;
   display: flex;
@@ -126,4 +125,96 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* DESKTOP MODE */
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    height: 780px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-bg.svg),
+      url(./images/pattern-quotes.svg), url(./images/pattern-curve.svg);
+    background-size: 49%, 9.8%, 52%;
+    background-position: 95% 37%, 19.2% 25.5%, -30px 104%;
+  }
+
+  .top {
+    position: relative;
+    width: 40%;
+    height: 551px;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom {
+    width: 50%;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
+    padding-left: 4.4rem;
+    padding-right: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .review {
+    z-index: 2;
+    font-size: 1.1rem;
+  }
+
+  .user {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+
+  .user__name {
+    font-size: 0.65rem;
+  }
+
+  .user__profile {
+    margin-left: 0.2rem;
+    font-size: 0.65rem;
+  }
+
+  .img-profile {
+    position: absolute;
+    left: -10%;
+    margin-top: -0.5rem;
+    width: 90%;
+    border-radius: 0.22rem;
+    box-shadow: 0 1.1rem 2rem -1.3rem hsl(240, 38%, 20%);
+  }
+
+  .slider-control {
+    left: -1%;
+    bottom: -4%;
+    width: 120px;
+    height: 60px;
+  }
+
+  .slider-control img {
+    width: 12px;
+    height: 18px;
+  }
+
+  .icon-prev {
+    margin-right: 25px;
+  }
+
+  .icon-next {
+    margin-left: 25px;
+  }
 }
