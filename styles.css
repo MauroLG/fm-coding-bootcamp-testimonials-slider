@@ -75,14 +75,6 @@ body {
   height: 13px;
 }
 
-.icon-prev {
-  margin-right: 15px;
-}
-
-.icon-next {
-  margin-left: 15px;
-}
-
 .bottom {
   margin-top: 0.5rem;
   padding-top: 0.3rem;
@@ -116,6 +108,28 @@ body {
   font-size: 0.48rem;
   font-weight: 500;
   color: var(--grayish-blue);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+#prev {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+#next {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .attribution {
@@ -208,13 +222,5 @@ body {
   .slider-control img {
     width: 12px;
     height: 18px;
-  }
-
-  .icon-prev {
-    margin-right: 25px;
-  }
-
-  .icon-next {
-    margin-left: 25px;
   }
 }
