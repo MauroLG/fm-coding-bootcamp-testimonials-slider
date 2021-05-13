@@ -25,7 +25,7 @@ const arrReviews = [
 
 let i = 0;
 
-// SHOW CONTENT REVIEW WHEN THE WINDOW IS LOADED
+// SHOW CONTENT REVIEW WHEN THE WINDOW IS LOADED AND WHEN IS CALLED BY BUTTON FUNCTIONS
 const loaded = () => {
   imageProfile.setAttribute('src', arrReviews[i].userImage);
   reviewText.textContent = arrReviews[i].userReview;
