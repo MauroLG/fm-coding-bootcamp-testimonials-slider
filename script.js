@@ -56,3 +56,10 @@ const next = () => {
 window.onload = loaded();
 prevButton.addEventListener('click', prev);
 nextButton.addEventListener('click', next);
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'ArrowLeft') {
+    prev();
+  } else if (e.key === 'ArrowRight') {
+    next();
+  }
+});
