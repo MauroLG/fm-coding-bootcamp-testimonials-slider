@@ -44,7 +44,7 @@ const prev = () => {
 };
 
 const next = () => {
-  if (i >= arrReviews.length - 1) {
+  if (i === arrReviews.length - 1) {
     i = 0;
   } else {
     i += 1;
